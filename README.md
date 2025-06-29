@@ -10,4 +10,6 @@ Create a main.c file that includes get_next_line.h so you can use the get_next_l
 
 Prototype: `char *get_next_line(int fd);`  
 - fd, the file descriptor to read from.
-- correct behavior, return read_line else NULL
+- Correct behavior, return read_line.
+- If there is nothing else to read, or an error
+occurred, return NULL.
