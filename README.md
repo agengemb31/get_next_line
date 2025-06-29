@@ -17,5 +17,5 @@ Prototype: `char *get_next_line(int fd);`
 - If there is nothing else to read, or an error
 occurred, return `NULL`.
 
-Compilation: `gcc -D BUFFER_SIZE=42 main.c get_next_line.c get_next_line_utils.c`
+Compilation: `gcc main.c get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=42`
 - BUFFER_SIZE can be set to any value you want.
