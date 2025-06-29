@@ -6,3 +6,6 @@
 
 ## Usage
 
+Create a main.c file that includes get_next_line.h so you can use the get_next_line function.
+
+Prototype: `char *get_next_line(int fd);` with fd, the file descriptor to read from.
