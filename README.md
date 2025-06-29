@@ -12,4 +12,4 @@ Prototype: `char *get_next_line(int fd);`
 - fd, the file descriptor to read from.
 - Correct behavior, return read_line.
 - If there is nothing else to read, or an error
-occurred, return NULL.
+occurred, return `NULL`.
